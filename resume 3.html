@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: #f3b65b;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .contact-info {
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        nav {
+            background: #eceff3;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #f3b65b;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #f3b65b;
+        }
+        
+        .section {
+            padding: 20px;
+            border-bottom: 2px solid #f0f4f8;
+        }
+        .section:last-of-type {
+            border-bottom: none;
+        }
+        .section-title {
+            color: #f3b65b;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #f0f4f8;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #131111;
+        }
+        .company-info {
+            color: #16191c;
+            font-size: 0.9em;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills li {
+            background: #f3b65b;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        footer {
+            background: #f3b65b;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+
+        .download-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            text-align: center;
+            padding: 10px;
+            background-color: #f3b65b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .download-button:hover {
+            background-color: #357ABD;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pratheek Manvi</h1>
+            <div class="contact-info">
+                <p>Email: pratheek94048@mail@gmail.com | Phone: 97744-64547 | LinkedIn: linkedin.com/in/pratheekmanvi</p>
+            </div>
+        </header>
+
+        <nav>
+            <a href="student 3.html">Home</a>
+            <a href="biodata 3.html">Biodata</a>
+        </nav>
+
+        <div class="section">
+            <h2 class="section-title">Summary</h2>
+            <p>I consider myself a responsible and orderly person. I am looking for my first work experience.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li>
+                    <h3 class="job-title">Degree: Bachelor of Engineering</h3>
+                    <p>Computer science and Engineering</p>
+                    <p class="company-info">Maharaja Institute of Technology, Thandavapura |2022-2026</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Experience</h2>
+            <ul>
+                <p>Fresher</p>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Soft Skills</h2>
+            <ul class="skills">
+                <li>Communication</li>
+                <li>Problem solving</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title"> Hard Skills</h2>
+            <ul class="skills">
+                <li>Python</li>
+                <li>C++</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Certifications</h2>
+            <ul>
+                <li><a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_012996602861608960271_shared/1-d3957fb1-54f7-4da5-a000-c74ab138941a.pdf" target="_blank">Programming in C
+                    - Infosys springboard</a> | 2024</li>
+                <li><a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_29959473947367270000_shared/1-b4af69aa-7497-4e06-b111-350f1eda1899.pdf" target="_blank">Java Programming Fundamentals
+                    - Infosys springboard</a> | 2024</li>
+                <li><a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_0135015556587356167864/1-5407c7ca-1226-424d-bb83-0948d5c5def0.pdf" target="_blank">Fundamentals of the C Language: Variables &amp; Datatypes
+                    - Infosys springboard</a> | 2024</li>
+            </ul>
+        </div>
+
+        <a href="resume.pdf" download="Pratheek_Manvi_Resume.pdf" class="download-button">Download Resume</a>
+
+        <footer>
+            <p>References available upon request.</p>
+        </footer>
+    </div>
+</body>
+</html>
